@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* main시작 */
+.hero{
+    background-image: url('../images/genesis-main-keyvisual-electrified-g80-main-hero-desktop-2560x900-kr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+    z-index: -1;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin-left: 30px;
+    margin: 300px 0 0 200px;
+}
+.black-bg{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.content{
+    position: absolute;
+    z-index: 3;
+}
+.sub-title{
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.main-title{
+    font-size: 3.5rem;
+}
+/* 메인 끝 */
+
+
+
+
+
+
+
+/* 연관컨텐츠시작 */
+.content-bg-01 img{
+    width: 100%;
+}
+
+.related h1{
+    font-size: 2.5vmin;
+    font-weight: 600;
+}
+.related1 h1{
+    font-size: 2vmin;
+    font-weight: 600;
+}
+
+.related1 p{
+    font-size: 1.4vmin;
+    line-height: 25px;
+}
+.related1 button{
+    border: none;
+    border-bottom: 1px solid #333;
+    background: none;
+    font-size: 1.3vmin;
+    margin-bottom: 10%;
+}
+.related2{
+    width: 80%!important;
+
+}
+/* 연관컨텐츠 끝 */
+
+
+
+
+/* 스펙과 디자인 시작 */
+.overtext{
+    padding: 100px 0 100px 40px;
+
+}
+.spec-design{
+    margin: 0 0 0 0 ;
+    overflow: hidden;
+}
+.overview-01:hover, .overview-02:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+.overview-01{
+    background: url('../images/display.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.overtext h1{
+    font-weight: 200;
+    font-size: 3.2rem;
+}
+.overtext p{
+    width: 50%;
+}
+.overview-02{
+    background: url('../images/design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+/* 스펙과 디자인 끝 */
+
+
+
+
+/* 비디오 컨텐츠 시작 */
+.video-content{
+    background: white;
+}
+.video video{
+    width: 100%;
+}
+.video-row{
+    padding: 100px 0;
+}
+.video-text{
+    width: 80%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
+}
+.video-text p{
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+.video-text h1{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.recharge-button{
+    width: 30%;
+    text-align: center;
+    background: none;
+    border: 1px solid #333;
+    color: #333;
+}
+/* 비디오 컨텐츠 끝 */
+
+
+
+
+
+/* 외부디자인컬러 시작 */
+.exterior-design-color{
+    width: 100%;
+    display: flex;
+}
+.tab-color{
+    display: flex;
+    justify-content: center;
+}
+
+
+.exterior-design-color{
+    padding-bottom: 5%;
+}
+.color-grey{
+    width:35px;
+    border-radius: 100%;
+    height: 35px;
+    background: linear-gradient(to right bottom, rgb(200, 200, 200), rgb(83, 83, 83));
+    margin: 0 10px;
+    cursor: pointer;
+}
+.color-white{
+    width:35px;
+    border-radius: 100%;
+    height: 35px;
+    background: linear-gradient(to right bottom, rgb(255, 255, 255), rgb(175, 175, 175));
+    cursor: pointer;
+}
+.color-black{
+    width:35px;
+    border-radius: 100%;
+    height: 35px;
+    background: linear-gradient(to right bottom, rgb(65, 65, 65), rgb(0, 0, 0));
+    margin: 0 10px;
+    cursor: pointer;
+}
+.color-red{
+    width:35px;
+    border-radius: 100%;
+    height: 35px;
+    background: linear-gradient(to right bottom, rgb(255, 115, 115), rgb(187, 0, 0));
+    cursor: pointer;
+}
+.color-blue{
+    width:35px;
+    border-radius: 100%;
+    height: 35px;
+    background: linear-gradient(to right bottom, rgb(86, 86, 255), rgb(0, 0, 182));
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+.exterior-design{
+    width: 100%;
+    background-color: #111111 !important;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.exterior-design-title h1{
+    color: white;
+}
+.exterior-design-img{
+    width: 100%;
+}
+.exterior-design-img img{
+    width: 80%;
+    background: #111111;
+    margin: auto;
+}
+.white-img, .red-img, .blue-img, .black-img{
+    display: none; 
+}
+/* 외부디자인컬러 끝 */
+
+
+ 
+
+/* 내부컬러 시작 */
+.tabs{
+    background-color:#f5f5f5;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+  }
+  .tabs-title{
+      margin-top: 10%;
+      text-align: left;
+      text-indent: 5%;
+  }
+  .tabs-title h1{
+      font-size: 1.8rem;
+  }
+  .tabs .container-fluid .row{
+      margin: auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .tabs .tab-pane{
+    margin-left:20px;
+  }
+  .tabs p{
+    font-size:14px;
+    cursor: pointer;
+  }
+  .tabs-p2, .tabs-p3{
+      display: none;
+  }
+  
+  .tabs a{
+    font-size:15px;
+    font-weight:700;
+    text-decoration-line: none;
+    list-style: none;
+    color: #333;
+    line-height: 50px;
+  }
+  
+  .tabs li{
+    background:none;
+    margin-top:1px;
+    text-align:center;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding: 0 30px;
+    text-align: left;
+    border-left: 3px solid rgb(189, 189, 189);
+
+  }
+  .tabs ul{
+      margin-top: 10%;
+      width: 80%;
+  }
+
+  .tab-content img{
+      width: 100%;
+      }
+  .tabs li.active{
+    border-left: 3px solid #ad7b61;
+    color: #ad7b61;
+    transition: .2s;
+  }
+  /* 내부컬러끝 */
+
+
+
+
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+@media(max-width:767px){
+    .main-content{
+        margin: 300px 0 0 10px;
+    }
+}
